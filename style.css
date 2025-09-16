@@ -17,6 +17,10 @@ body{
     background-color: #bbc0ec;
 }
 
+section{
+    margin-bottom:100px;
+}
+
 h2{
     text-align:center;
 }
