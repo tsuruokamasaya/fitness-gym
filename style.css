@@ -50,3 +50,7 @@ h2{
     grid-template-columns: 1fr 1fr 1fr;
     text-align:center;
 }
+
+#service p{
+    text-align:center;
+}
