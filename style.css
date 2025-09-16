@@ -1,0 +1,48 @@
+/* リセットｃｓｓ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+/* pcファースト */
+body{
+    font-family: sans-serif;
+    line-height:1.5;
+    color: #313131;
+    background-color: #bbc0ec;
+}
+
+h2{
+    text-align:center;
+}
+
+.header{
+    height:100px;
+    padding:1rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-menu{
+    display: flex;
+    list-style: none;
+    gap:1rem;
+}
+
+#about p{
+    text-align: center;
+}
+
+#about_grid{
+    list-style: none;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align:center;
+}
