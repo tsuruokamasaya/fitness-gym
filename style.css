@@ -9,12 +9,30 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 /* pcファースト */
 body{
-    font-family: sans-serif;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     line-height:1.5;
     color: #313131;
     background-color: #bbc0ec;
+}
+
+main{
+    max-width:80%;
+    margin: 0 auto;
 }
 
 section{
@@ -50,8 +68,9 @@ h2{
 #about_grid{
     list-style: none;
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 0.8fr 0.8fr 0.8fr;
     text-align:center;
+    justify-content:center;
 }
 
 #service p{
@@ -68,4 +87,24 @@ h2{
     display: flex;
     justify-content: center;
     gap:1rem;
+}
+
+#information{
+    text-align:center;
+}
+
+#information-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+#information_button{
+    margin-bottom:50px;
+}
+
+#footer{
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom:0;
 }
