@@ -61,6 +61,11 @@ h2{
 #about{
     margin-top:100px;
 }
+
+#about h2{
+    padding:1rem;
+    border-bottom:2px dashed #fff;
+}
 #about p{
     text-align: center;
 }
