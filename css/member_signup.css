@@ -1,0 +1,11 @@
+.vh{
+    width:80%;
+    height:80vh;
+    margin:0 auto;
+}
+
+form{
+    border: 3px solid #ffd6fc;
+    text-align: center;
+    height: 40%;
+}

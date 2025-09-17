@@ -56,7 +56,7 @@
 
     <div id="gym_image">
         <img src="https://dummy.kobeya.com/?width=1000&height=450&bg=cccccc&color=000000&text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E7%94%BB%E5%83%8F&_=1757992751403" alt="サンプル画像（1000×450" alt="ジムの全体イメージ画像">
-        <p><button>施設紹介を詳しく見る</button></p>
+        <p class="button"><a href="member_signup.php">施設紹介を詳しく見る</a></p>
     </div>
 
     <h2>家族会員サービス</h2>
