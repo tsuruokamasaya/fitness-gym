@@ -22,6 +22,7 @@
     <header class="header">
         <h1>Fitness-gym</h1>
         <ul class="header-menu">
+            <li><a href="#">ログイン</a></li>
             <li><a href="#">about</a></li>
             <li><a href="#">service</a></li>
             <li><a href="#">information</a></li>
