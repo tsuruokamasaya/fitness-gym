@@ -1,6 +1,7 @@
 <?php
-$page_css = 'member_signup.css';
-include 'includes/header.php'; ?>
+include 'includes/common.php';
+include 'includes/header.php';
+$page_css = 'member_signup.css'; ?>
 
 <h2>入会方法</h2>
 <p>以下のフォームに入力していただき、確認できましたら登録完了となります。</p>
