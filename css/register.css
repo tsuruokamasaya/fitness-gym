@@ -1,0 +1,14 @@
+.register{
+    padding:1rem;
+    max-width:60%;
+    margin: 20px auto;
+}
+
+h1{
+    text-align:center;
+}
+form{
+    padding:2rem;
+    border:2px dashed #ffffff; 
+    text-align:center;
+}

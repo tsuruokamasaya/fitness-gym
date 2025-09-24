@@ -75,7 +75,7 @@
 <section id="information">
     <h2>ご入会方法</h2>
     <h3>WEBまたはアプリからお手続き可能です</h3>
-    <a href="register.php" id="a_button">入会方法を詳しく見る</a>
+    <a href="register.php" id="a_button">入会手続きはこちら</a>
 
     <h2>ソーシャルメディア公式アカウント</h2>
     <div id="information-flex">

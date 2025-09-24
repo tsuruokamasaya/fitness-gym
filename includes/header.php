@@ -9,7 +9,7 @@
     <?php
     // ページ固有のCSSがあれば読み込む
     if (isset($page_css)) {
-        echo '<link rel="stylesheet" href="css/' . htmlspecialchars($page_css) . '">';
+        echo '<link rel="stylesheet" href="css/' . $page_css . '">';
     }
     ?>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,7 +26,7 @@
                 <li>ようこそ、<?= h($_SESSION['member']) ?>さん</li>
                 <li><a href="logout.php">ログアウト</a></li>
             <?php else: ?>
-                <li><a href="#">ログイン</a></li>
+                <li><a href="login.php">ログイン</a></li>
             <?php endif; ?>
             <li><a href="#">about</a></li>
             <li><a href="#">service</a></li>
