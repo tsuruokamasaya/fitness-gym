@@ -22,6 +22,7 @@
         </p>
 
         <p><input type="submit" value="ログイン"></p>
+        <p><a href="top.php">ゲストでサイト閲覧</a></p>
 
 
     </form>
