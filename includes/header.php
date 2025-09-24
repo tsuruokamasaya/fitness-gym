@@ -22,8 +22,8 @@
     <header class="header">
         <h1>Fitness-gym</h1>
         <ul class="header-menu">
-            <?php if (!empty($_SESSION['member'])): ?>
-                <li>ようこそ、<?= $_SESSION['member'] ?>さん</li>
+            <?php if (!empty($h($_SESSION['member']))): ?>
+                <li>ようこそ、<?= $h($_SESSION['member']) ?>さん</li>
                 <li><a href="logout.php">ログアウト</a></li>
             <?php else: ?>
                 <li><a href="#">ログイン</a></li>
