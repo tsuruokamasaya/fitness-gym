@@ -1,4 +1,4 @@
-<?php include 'includes/header.php'; ?>
+<?php include 'includes/common.php'; ?>
 <section id="about">
     <h2>Fitness-gymはこんなところ</h2>
     <p>本格的にトレーニングしたい方はもちろん、今までジムに通ったことがない方、</p>
