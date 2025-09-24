@@ -9,19 +9,19 @@ include 'includes/header.php'; ?>
     <form action="register_done.php" method="post">
         <p>
             <label for="username">
-                <input type="text" id="username" placeholder="例）山田　太郎" required>
+                <input type="text" id="username" name="username" placeholder="例）山田　太郎" required>
             </label>
         </p>
 
         <p>
             <label for="email">
-                <input type="text" id="email" placeholder="例）example@email.com" required>
+                <input type="text" id="email" name="email" placeholder="例）example@email.com" required>
             </label>
         </p>
 
         <p>
             <label for="password">
-                <input type="password" id="password" required>
+                <input type="password" id="password" name="password" required>
             </label>
         </p>
 
