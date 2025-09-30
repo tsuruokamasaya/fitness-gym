@@ -1,7 +1,6 @@
 <?php
 $page_css = 'register.css';
 include 'includes/common.php';
-include 'includes/header.php';
 ?>
 
 

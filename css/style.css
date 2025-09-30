@@ -5,9 +5,27 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 html, body {
   margin: 0;
   padding: 0;
+}
+
+.header{
+  position: fixed;   /* 画面に固定 */
+  top: 0;            /* 上から0 */
+  left: 0;           /* 左から0 */
+  width: 100%;       /* 横幅いっぱい */
+  z-index: 1000;     /* 他の要素より前に出す */
+  background: #ffffffc5;  /* 背景色をつけないと下の文字が透ける */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* 影をつけると見やすい */
+  height:80px;
+    padding:0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 a {
@@ -51,15 +69,6 @@ section{
 
 h2{
     text-align:center;
-}
-
-.header{
-    height:100px;
-    padding:1rem;
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .header-menu{

@@ -77,7 +77,7 @@
     <h3>WEBまたはアプリからお手続き可能です</h3>
     <a href="register.php" id="a_button">入会手続きはこちら</a>
 
-    <h2>ソーシャルメディア公式アカウント</h2>
+    <h2 id="sns">ソーシャルメディア公式アカウント</h2>
     <div id="information-flex">
         <div>
             <img src="https://dummy.kobeya.com/?width=300&height=200&bg=cccccc&color=000000&text=%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E7%94%BB%E5%83%8F&_=1757992751403" alt="特典1（300×170）">

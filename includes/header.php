@@ -28,11 +28,10 @@
             <?php else: ?>
                 <li><a href="login.php">ログイン</a></li>
             <?php endif; ?>
-            <li><a href="#">about</a></li>
-            <li><a href="#">service</a></li>
-            <li><a href="#">information</a></li>
-            <li><a href="#">ご入会方法</a></li>
-            <li><a href="#">SNS</a></li>
+            <li><a href="top.php#about">about</a></li>
+            <li><a href="top.php#service">service</a></li>
+            <li><a href="top.php#information">ご入会方法</a></li>
+            <li><a href="top.php#sns">SNS</a></li>
             <li><a href="#">お問い合わせ</a></li>
         </ul>
     </header>

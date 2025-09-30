@@ -1,4 +1,6 @@
 <?php include 'includes/common.php';
+include 'includes/header.php';
+$page_css = 'style.css';
 $_SESSION = [];
 
 if (session_id() !== '' || isset($_COOKIE[session_name()])) {
