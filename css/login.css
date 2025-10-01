@@ -4,8 +4,9 @@ div{
     margin: 20px auto;
 }
 
-h1{
+div h1{
     text-align:center;
+    margin-top: 5rem;
 }
 form{
     padding:1rem;
